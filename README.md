@@ -1,10 +1,26 @@
-# Ports-Scanner
-# Descripción general
-Lo que hace esta herramienta es escanear de manera local y avisar sobre que puertos estan abiertos, esto lo hice con el objetivo de cuidar la seguridad del equipo. 
-Para que puedas reconocer algun puerto que no estes utilizando y cerrarlo para mayor seguridad.
+# Escáner de Puertos Local 🐍
 
-# Guía de uso e instalación
+## Descripción General 📋
 
+Este proyecto es un **Escáner de Puertos Local** desarrollado en Python. Su objetivo principal es auditar la seguridad del equipo identificando qué puertos se encuentran abiertos y escuchando conexiones. 
 
-#
-Esto se hace con el objetivo de proteger ante amenazas externas maliciosas y reducir riesgos, contruyendo una mejor defenza para nuestos dispositivos.
+Al automatizar esta revisión, la herramienta permite:
+* 🔍 **Detectar servicios innecesarios:** Identificar qué puertos abiertos no se están utilizando.
+* 🛡️ **Reducir la superficie de ataque:** Facilitar el cierre de conexiones expuestas para mitigar riesgos.
+* 💻 **Fortalecer el bastionado (*hardening*):** Proteger el dispositivo frente a posibles amenazas externas maliciosas.
+
+---
+
+## Guía de Uso e Instalación ⚙️
+
+### Requisitos Previos
+* Tener instalado **Python 3**.
+* Una terminal de comandos (como Git Bash).
+
+### Instrucciones de Ejecución
+1. Descarga o copia el archivo de código y asegúrate de guardarlo con el nombre `scaner_puertos.py`.
+2. Abre tu terminal y navega hasta la carpeta donde se encuentra el archivo usando el comando `cd`.
+3. Ejecuta el script con el siguiente comando:
+   
+```bash
+   python scaner_puertos.py
